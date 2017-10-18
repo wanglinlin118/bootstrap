@@ -61,12 +61,12 @@
 .dropleft {
   .dropdown-menu {
     margin-top: 0;
-    margin-right: $dropdown-spacer;
+    margin-left: $dropdown-spacer;
   }
 
   .dropdown-toggle {
     @include caret(left);
-    &::after {
+    &::before {
       vertical-align: 0;
     }
   }
